@@ -54,6 +54,8 @@ function getBotResponse(message) {
     response = "You're welcome!";
   } else if (message.toLowerCase().includes('bye') || message.toLowerCase().includes('goodbye')) {
     response = 'Goodbye!';
+  } else if (message.toLowerCase().includes('fortnite') || message.toLowerCase().includes('V-bucks')) {
+    response = 'please touche grass!';
   }
 
   return response;
